@@ -4,7 +4,7 @@ export function CountDuration() {
   return (
     <>
       <BackButton />
-      <div>Under Working</div>
+      <div className="title">Count Duration</div>
     </>
   );
 }

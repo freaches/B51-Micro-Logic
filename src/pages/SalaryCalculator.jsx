@@ -24,7 +24,7 @@ export function SalaryCalculator() {
   return (
     <>
       <BackButton />
-      <h1 className="my-5 text-center text-3xl font-bold">Salary Calculator</h1>
+      <h1 className="title">Salary Calculator</h1>
       <div className="mt-10 flex flex-row flex-wrap justify-evenly">
         <form className="w-1/3 flex-none" onSubmit={calculateSalary}>
           <h2 className="mb-7 text-center text-xl font-bold">Calculator</h2>

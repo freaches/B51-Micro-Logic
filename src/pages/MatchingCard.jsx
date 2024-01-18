@@ -1,7 +1,10 @@
+import BackButton from "../components/BackButton";
+
 export function MatchingCard() {
   return (
     <>
-      <div>Under Working</div>
+      <BackButton />
+      <div className="title">Matching Card Game</div>
     </>
   );
 }

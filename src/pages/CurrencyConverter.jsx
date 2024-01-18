@@ -1,7 +1,10 @@
+import BackButton from "../components/BackButton";
+
 export function CurrencyCoverter() {
   return (
     <>
-      <div>Under Working</div>
+      <BackButton />
+      <div className="title">Currency Converter</div>
     </>
   );
 }
